@@ -293,7 +293,7 @@ const Services = () => {
               id="services-heading"
               className="font-heading text-[clamp(4rem,10.5vw,11rem)] font-medium leading-[0.9] tracking-[-0.04em] text-text-primary"
             >
-              What WE Do
+              What We Do
             </h2>
           </div>
 

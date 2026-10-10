@@ -1,7 +1,7 @@
 import currencyLight from "../assets/currency/currency.webp";
 import currencyDark from "../assets/currency/image.webp";
 import k72Hero from "../assets/k72/k72.webp";
-import k72Projects from "../assets/k72/image copy.webp";
+import k72Projects from "../assets/k72/imagecopy.webp";
 import k72Navigation from "../assets/k72/image.webp";
 import loginDark from "../assets/login/login.webp";
 import loginLight from "../assets/login/image.webp";
@@ -27,7 +27,7 @@ export const projects = [
       "A creative website recreation focused on expressive typography, immersive visuals, and playful interaction. The project explores visual-first web experiences.",
     role: "Development",
     services: ["Creative Development"],
-    technologies: ["React", "GSAP", "Lenis", "Tailwind CSS"],
+    technologies: ["React", "GSAP", "Tailwind CSS"],
     heroImage: k72Hero,
     gallery: [k72Projects, k72Navigation],
     approach:
@@ -51,7 +51,7 @@ export const projects = [
       "A studio website recreation built around editorial typography, bold composition, and smooth interactive transitions. It serves as an exploration of digital studio aesthetics.",
     role: "Development",
     services: ["Creative Development"],
-    technologies: ["React", "GSAP", "Tailwind CSS"],
+    technologies: ["React", "Framer Motion", "Tailwind CSS"],
     heroImage: sundownHero,
     gallery: [sundownProjects, sundownAbout],
     approach:
@@ -75,7 +75,7 @@ export const projects = [
       "A focused utility web application for converting currencies through a clear and simple interface. Prioritizes speed and usability.",
     role: "Development",
     services: ["Frontend Development"],
-    technologies: ["React", "CSS"],
+    technologies: ["React", "TailwindCSS", "Frankfurter Currency API"],
     heroImage: currencyLight,
     gallery: [currencyDark],
   },
